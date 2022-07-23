@@ -1,0 +1,280 @@
+body{
+    font-family: 'Jost', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.wrapper{
+    background: url(../images/school.jpeg)
+    no-repeat center center;
+    min-height: 30rem;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: #0005;
+    line-height: 80px;
+}
+
+nav ul{
+    float: right;
+    margin: 0;
+    margin-right: 1.9rem;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding:10px 20px;
+}
+li.nav_btn a {
+    background: orange;
+}
+
+img {
+    width: 15%;
+    margin-left: 1.9rem;
+    margin-top: -5px;
+}
+
+nav ul li a:hover{
+	transition:0.5s;
+	/*box-shadow: rgba(255, 255, 255, 0.25) 0px 50px 100px -20px, rgba(255, 255, 255, 0.3) 0px 30px 60px -30px, rgba(255, 255, 255, 0.35) 0px -2px 6px 0px inset;*/
+    color: #fff;
+    /*box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;*/
+    box-shadow: rgba(254, 120, 9 , 0.25) 0px 30px 60px -12px inset, rgba(254, 120, 9, 0.3) 0px 18px 36px -18px inset;
+}
+
+.section{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 4%;
+}
+
+.section h1{
+    color: #fff;
+    line-height: 50px;
+}
+
+.section p{
+    color: #fff;
+}
+
+.btn-1{
+    background-color: orangered;
+    padding: 0.7rem 1rem;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+	font-family: 'Ubuntu', sans-serif;
+}
+.btn-1:hover{
+    transition: 1s;
+    box-shadow: rgba(255, 87, 51 , 0.4) 5px 5px, rgba(255, 87, 51 , 0.3) 10px 10px, rgba(255, 87, 51 , 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(255, 87, 51, 0.05) 25px 25px;
+}
+
+
+
+#courses h3{
+    font-size: 20px;
+}
+
+.btn-1:hover{
+    cursor:pointer;
+}
+
+.features{
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+.features button{
+    padding: 0.7rem 2rem;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+    opacity: 0.7;
+}
+
+.features button:hover{
+    background:orangered;
+	color:#fff;
+	transition:0.5s;
+	opacity:1;
+	cursor:pointer;
+}
+
+#courses_section h1{
+    margin-top: 5%;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+#courses {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    margin: 0px 5rem;
+}
+#courses img{
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    margin: auto;
+    display: block;
+}
+.apply{
+    margin-top: 4%;
+    background-color: orangered;
+    padding: 6px 60px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+	cursor:pointer;
+}
+.apply:hover{
+    transition: 1s;
+    background-color: unset;
+    color: #000;
+    box-shadow: rgba(249, 211, 20, 0.09) 0px 2px 1px, rgba(249, 211, 20, 0.09) 0px 4px 2px, rgba(249, 211, 20, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+
+
+
+
+
+
+section.about_section.layout_padding {
+    margin: 100px 0px;
+}
+
+  
+  .about_section .img-box img {
+    width: 100%;
+    border-radius: 15px;
+  }
+  
+  .about_section .detail-box a {
+    display: inline-block;
+    padding: 10px 45px;
+    background-color: orange;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid orange;
+    outline: none;
+    margin-top: 15px;
+    text-decoration: none;
+  }
+  .about_section .detail-box a:hover{
+    transition: 1s;
+    color: #000;
+    background-color: unset;
+    border: 2px solid orange;
+  }
+
+
+ .footer_row{
+    display: flex;
+    justify-content: space-between;
+} 
+.footer_row ul{
+	list-style: none;
+	padding: 0px;
+}
+.footer{
+	margin-top: 4rem;
+	background-color: #24262b;
+    padding:30px 50px;
+}
+.footer-col{
+   width: 22%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color:orangered;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

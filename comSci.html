@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/comSci.css">
+	<link rel = "icon" href ="images/x_logo.png" type = "Images/x-icon">
+	<title>Computer Science</title>
+</head>
+<body>
+	<img style="width:100%" src="images/cs-banner.png">
+	<main class="flex gap-30">
+		<h1>Computer Science</h1>
+					
+		<div class="flex gap-30">
+
+			<div class="accordion">
+				<div class="accordion-title accordion-active">
+					<h2>What is computer science?</h2>
+					<img class="toggle-icon" src="https://accordion.iamdanial.com/assets/icons/toggle-icon.svg" alt="Toggle icon" width="16" height="16">
+				</div>
+				<div class="flex gap-30 accordion-content">
+					<picture>
+						<img src="images/gifabout1.gif" alt="Placeholder image 01" width="900" height="300">
+					</picture>
+					<div class="flex gap-20">
+						<p>
+							Computer science is the study of computers and computing as well as their theoretical and practical applications. Computer science applies the principles of mathematics, engineering, and logic to a plethora of functions, including algorithm formulation, software and hardware development, and artificial intelligence.
+						</p>
+						<p>
+							Computer science is the study of computers and computing as well as their theoretical and practical applications. Computer science applies the principles of mathematics, engineering, and logic to a plethora of functions, including algorithm formulation, software and hardware development, and artificial intelligence.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="flex gap-30">
+			<div class="accordion">
+				<div class="accordion-title accordion-active">
+					<h2>Who are the most well-known computer scientists?</h2>
+					<img class="toggle-icon" src="https://accordion.iamdanial.com/assets/icons/toggle-icon.svg" alt="Toggle icon" width="16" height="16">
+				</div>
+				<div class="flex gap-30 accordion-content">
+					<picture>
+						<img src="images/gifabout2.gif" alt="Placeholder image 01" width="900" height="300">
+					</picture>
+					<div class="flex gap-20">
+						<p>
+							The most influential computer scientists include Alan Turing, the World War II code breaker commonly regarded as the “father of modern computing”; Tim Berners-Lee, inventor of the World Wide Web; John McCarthy, inventor of the programming language LISP and artificial intelligence pioneer; and Grace Hopper, U.S. Navy officer and a key figure in the development of early computers such as the UNIVAC I as well as the development of the computer language compiler.
+						</p>
+						<p>
+							Computer science is the study of computers and computing as well as their theoretical and practical applications. Computer science applies the principles of mathematics, engineering, and logic to a plethora of functions, including algorithm formulation, software and hardware development, and artificial intelligence.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="flex gap-30">
+			<div class="accordion">
+				<div class="accordion-title accordion-active">
+					<h2>What can you do with computer science?</h2>
+					<img class="toggle-icon" src="https://accordion.iamdanial.com/assets/icons/toggle-icon.svg" alt="Toggle icon" width="16" height="16">
+				</div>
+				<div class="flex gap-30 accordion-content">
+					<picture>
+						<img src="images/gifabout3.gif" alt="Placeholder image 01" width="900" height="300">
+					</picture>
+					<div class="flex gap-20">
+						<p>
+							Computer science is applied to a wide range of disciplines that include modeling simulations such as the impacts of climate change and the Ebola virus, creating art and visualization through graphics rendering, and simulating a human interface through artificial intelligence and machine learning.
+						</p>
+						<p>
+							Computer science is the study of computers and computing as well as their theoretical and practical applications. Computer science applies the principles of mathematics, engineering, and logic to a plethora of functions, including algorithm formulation, software and hardware development, and artificial intelligence.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="flex gap-30">
+			<div class="accordion">
+				<div class="accordion-title accordion-active">
+					<h2>Is computer science used in video games?</h2>
+					<img class="toggle-icon" src="https://accordion.iamdanial.com/assets/icons/toggle-icon.svg" alt="Toggle icon" width="16" height="16">
+				</div>
+				<div class="flex gap-30 accordion-content">
+					<picture>
+						<img src="images/gifabout4.gif" alt="Placeholder image 01" width="900" height="300">
+					</picture>
+					<div class="flex gap-20">
+						<p>
+							Video game development is grounded in the principles of computer science and programming. Modern graphics rendering in video games often employs advanced techniques such as ray tracing to provide realistic effects. The development of augmented reality and virtual reality has also expanded the range of possibilities of video game development.
+						</p>
+						<p>
+							Computer science is the study of computers and computing as well as their theoretical and practical applications. Computer science applies the principles of mathematics, engineering, and logic to a plethora of functions, including algorithm formulation, software and hardware development, and artificial intelligence.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<script>
+		// Store reference for all accordions.
+
+		const accordion = document.querySelectorAll(".accordion-title");
+
+		// Open accordion when clicked on it.
+
+accordion.forEach((e) => {
+  e.addEventListener("click", toggleAccordion);
+});
+
+function toggleAccordion(e) {
+  e.target.classList.toggle("accordion-active");
+
+  // Prevent opening multiple accordions at the same time.
+
+  // accordion.forEach((e) => {
+  //   if (this !== e) {
+  //     e.classList.remove("accordion-active");
+  //   }
+  // });
+}
+
+	</script>
+</body>
+</html>

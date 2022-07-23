@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forgotten Page</title>
+	<link rel = "icon" href ="images/x_logo.png" type = "Images/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Joan&family=Jost&family=Montserrat:wght@300;700&family=Raleway:wght@200&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<style>
+	* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+body {
+    background-image: radial-gradient(#F9D314, #F9A214, #F9D314);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:0px 0px;
+}
+.form-container {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container .form-wrap {
+    background: #eee;
+    width: 22%;
+    height: 340px;
+    padding: 8% 0px;
+    border-radius: 5px;
+}
+
+.form-container .form-wrap h2 {
+    text-align: center;
+    margin: -40px 0px 70px;
+    font-size: 22px;
+}
+
+.form-container .form-wrap .form-box {
+    margin: 0px 0px 15px;
+    text-align: center;
+}
+
+.form-container .form-wrap .form-box input[type="text"]{
+    padding: 5px 5px;
+    width: 70%;
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid #000;
+    background-color: #eee;
+}
+.form-container .form-wrap .form-box input:focus{
+outline: none;
+}
+.form-container .form-wrap .form-submit {
+    display: flex;
+    justify-content: center;
+}
+.form-container .form-wrap .form-submit input[type="submit"] {
+    margin-top: 25px;
+    padding: 8px 50px;
+    border: none;
+    border-radius: 2px;
+    background: linear-gradient(120deg,#ff3900,#ffcc00);
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+.form-container .form-wrap .form-submit input[type="submit"]:hover{
+background: linear-gradient(120deg,#ffcc00,#ff3900);
+}
+.rembrd_text {
+    text-align: center;
+    margin-top: 10px;
+}
+.rembrd_text a span {
+    font-size: 14px;
+    text-align: center;
+}
+
+/*Responsive Media Queries( Start-> )*/
+
+@media screen and (min-width:1600px){
+
+}
+@media screen and (min-width:992px) and (max-width:1200px){
+.form-container .form-wrap {
+    width: 26%;
+    height: 300px;
+}
+}
+@media screen and (min-width:750px) and (max-width:991px){
+.form-container .form-wrap {
+    width: 32%;
+    height: 300px;
+}
+.form-container .form-wrap h2 {
+    text-align: center;
+    margin: -15px 0px 60px;
+    font-size: 22px;
+}
+}
+@media screen and (max-width:749px){
+.form-container .form-wrap {
+    width:65%;
+    height:270px;
+}
+.form-container .form-wrap h2 {
+    text-align: center;
+    margin: 0px 0px 50px;
+    font-size: 22px;
+}
+.form-container .form-wrap .form-submit input[type="submit"] {
+    margin-top: 25px;
+    padding: 5px 40px;
+    font-size: 15px;
+    }
+}
+
+/*Responsive Media Queries( Start-> )*/
+
+</style>
+<body>
+
+<div class="form-container">
+    <form action="#" method="post" class="form-wrap wow fadeInDown">
+        <h2>Forgot Password</h2>
+        <div class="form-box">
+            <input id="text_wrpr" name="text" type="text" placeholder="Enter Email" />
+        </div>
+        <div class="form-submit">
+            <input id="submit_btn" name="submit" type="submit" value="Send"/>
+        </div>
+        <div class="rembrd_text">
+            <a href="login.html"><span>Oh I remembered !</span></a>
+        </div>
+        
+    </form>
+</div>
+
+<script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+</body>
+</html>	

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College</title>
+    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="css/bootstrap.min.css"> 
+    <script src="js/bootstrap.min.js"></script>
+    <link rel = "icon" href ="images/x_logo.png" type = "Images/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+   
+   <div class="wrapper">
+       <nav>
+          <img src="images/logo.png" class="img" alt="logo"> 
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#about_section">About</a></li>
+              <li><a href="#courses_section">Course</a></li>
+              <li><a href="#">Event</a></li>
+              <li class="nav_btn"><a onclick="logIn()" href="#"><i class="fa-solid fa-user"></i> LOGIN</a></li>
+              <li class="nav_btn"><a onclick="signUp()" href="#"><i class="fa-solid fa-user"></i> SIGN UP</a></li>
+          </ul>
+       </nav>
+      
+      <div class="section">
+          <h1>WE JMC A BETTER EDUCATION <br> FOR A BETTER WORLD</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium corporis, illum, rerum praesentium cupiditate inventore sed vero itaque impedit, recusandae eaque. Eligendi harum, molestias ducimus eum quas ut officia sit?</p>
+          
+          <a href="#"><button onclick="getTouch()" class="btn-1">GET STARTED</button></a>
+	
+
+         <div class="features">
+             <button onclick="compCous()">Computer Courses</button>
+             <button onclick="bussCous()">Business Courses</button>
+             <button onclick="humsCous()">Humanities Courses</button>
+             <button onclick="mediCous()">Medical Courses</button>
+         </div>
+      </div>
+   </div>
+   
+   <section id="courses_section">
+       <h1>POPULAR COURSES</h1>
+       <div id="courses">
+           <div class="cs">
+               <h3>Computer Science</h3>
+               <img src="images/cse.jpeg" width="50%" alt="cs">
+               <a href="#" onclick="comSci()"><button class="apply">Apply Here</button></a>
+           </div>
+           <div class="business">
+               <h3>Business Studies</h3>
+               <img src="images/business.jpeg" alt="business">
+               <a href="#" onclick="business()"><button class="apply">Apply Here</button></a>
+           </div>
+           <div class="arts">
+               <h3>Arts & Humanities</h3>
+               <img src="images/arts.jpeg" alt="arts">
+               <a href="#" onclick="artumanities()"><button class="apply">Apply Here</button></a>
+           </div>
+           <div class="medical">
+               <h3>Medical Science</h3>
+               <img src="images/medical.jpeg" alt="ms">
+               <a href="#" onclick="medilSci()"><button class="apply">Apply Here</button></a>
+           </div>
+       </div>
+   </section>
+   
+   <section id="about_section" class="about_section layout_padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2>
+                About Us
+              </h2>
+            </div>
+            <p>
+             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+            <a href="">
+              Read More
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="img-box">
+            <img src="images/about-img.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> 
+   
+
+
+ <section>
+  <footer class="footer">
+  	 <div class="footer_container">
+  	 	<div class="footer_row">
+  	 		<div class="footer-col">
+  	 			<h4>Useful Links</h4>
+  	 			<ul>
+  	 				<li><a href="#">Mandatory Disclosure</a></li>
+  	 				<li><a href="#">Examination</a></li>
+  	 				<li><a href="#">Training & Placement</a></li>
+  	 				<li><a href="#">Anti-Ragging Cell</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Get help</h4>
+  	 			<ul>
+  	 				<li><a href="#">Campus Life</a></li>
+  	 				<li><a href="#">Student Portal</a></li>
+  	 				<li><a href="#">Study in India</a></li>
+  	 				<li><a href="#">NIRF</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>More Info</h4>
+  	 			<ul>
+  	 				<li><a href="#">Media Coverage</a></li>
+  	 				<li><a href="#">Alumni Cell</a></li>
+  	 				<li><a href="#">Research</a></li>
+  	 				<li><a href="#">Training & Placement</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Follow us</h4>
+  	 			<div class="social-links">
+  	 				<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+  	 				<a href="#"><i class="fa-brands fa-twitter"></i></a>
+  	 				<a href="#"><i class="fa-brands fa-instagram"></i></a>
+  	 				<a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+  	 			</div>
+				<div>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14778.558283275152!2d80.28953436891838!3d22.17778783648005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a2a7050cf7c37ab%3A0xdc10cefffcde74fc!2sParaswada%2C%20Madhya%20Pradesh%20481556!5e0!3m2!1sen!2sin!4v1658312390430!5m2!1sen!2sin" width="210" height="80" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+  	 		</div>
+  	 	</div>
+  	 </div>
+  </footer>
+</section>
+<script>
+function signUp() {
+  window.open("registration.html");
+}
+function logIn() {
+  window.open("login.html");
+}
+
+function comSci() {
+  window.open("comSci.html");
+}
+function business() {
+  window.open("business.html");
+}
+function artumanities() {
+  window.open("artsHums.html");
+}
+function medilSci() {
+  window.open("medicallSci.html");
+}
+
+function getTouch() {
+  window.open("getInTouch.html");
+}
+//////////////
+function compCous() {
+  window.open("compCous.html");
+}
+function bussCous() {
+  window.open("bussCous.html");
+}
+function humsCous() {
+  window.open("humsCous.html");
+}
+function mediCous() {
+  window.open("mediCous.html");
+}
+
+</script> 
+ 
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
